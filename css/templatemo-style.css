@@ -59,7 +59,7 @@ h1,h2,h3,h4,h5
 /* end all heading */
 
 /* start all section */
-#work, #about, #portfolio, #contact,#pro,#edu
+#work, #about, #portfolio, #contact,#pro
     {
         padding-top: 100px;
         padding-bottom: 100px;
