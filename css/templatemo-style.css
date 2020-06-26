@@ -20,9 +20,18 @@ body
 #work .fp-slide,
 #work .fp-tableCell,
 
+
+#edu,
+#edu .fp-slide,
+#edu .fp-tableCell,
+
 #about,
 #about .fp-slide,
 #about .fp-tableCell,
+
+#pro,
+#pro .fp-slide,
+#pro .fp-tableCell,
 
 #contact,
 #contact .fp-slide,
@@ -50,10 +59,10 @@ h1,h2,h3,h4,h5
 /* end all heading */
 
 /* start all section */
-#work, #about, #portfolio, #contact
+#work, #about, #portfolio, #contact,#pro,#edu
     {
         padding-top: 100px;
-        padding-bottom: 120px;
+        padding-bottom: 100px;
     }
 /* end all section */
 
@@ -275,6 +284,99 @@ h1,h2,h3,h4,h5
     }
 
 /* end work */
+#pro
+    {
+        background: #1a1a1a;
+    }
+#pro h2
+    {
+        text-align: left;
+    }
+
+#pro .media
+    {
+      margin-top: 30px;
+    }
+
+
+#pro .media .fa
+    {
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        color: var(--tcolor);
+        font-size: 24px;
+        margin-right: 24px;
+        width: 60px;
+        height: 60px;
+        line-height: 55px;
+        text-align: center;
+        vertical-align: middle;
+        transition: all 0.4s ease-in;
+    }
+#pro .media .fa:hover
+    {
+        background: #ffffff;
+        cursor: pointer;
+    }
+#pro .media .media-heading
+    {
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 10px;
+
+    }
+
+#bords{
+    border-bottom: 2px solid var(--tcolor);
+}
+
+
+#edu
+    {
+        background: #1a1a1a;
+    }
+#edu h2
+    {
+        text-align: center;
+    }
+#edu h2
+    {
+        padding: 10px;
+    }
+
+
+#edu .media
+    {
+      margin-top: 30px;
+    }
+
+
+#edu .media .fa
+    {
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        color: var(--tcolor);
+        font-size: 24px;
+        margin-right: 24px;
+        width: 60px;
+        height: 60px;
+        line-height: 55px;
+        text-align: center;
+        vertical-align: middle;
+        transition: all 0.4s ease-in;
+    }
+#edu .media .fa:hover
+    {
+        background: #ffffff;
+        cursor: pointer;
+    }
+#edu .media .media-heading
+    {
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 10px;
+
+    }
 
 /* start about */
 #about h4
@@ -366,7 +468,7 @@ h1,h2,h3,h4,h5
     {
         border: 2px solid #ffffff;
         border-radius: 50%;
-        color: #D43F52;
+        color: var(--tcolor);
         width: 50px;
         height: 50px;
         line-height: 45px;
@@ -388,7 +490,7 @@ h1,h2,h3,h4,h5
     }
 #contact input[type="submit"]
     {
-        background: #D43F52;
+        background: var(--tcolor);
         border: 2px solid transparent;
         color: #ffffff;
         font-weight: bold;
@@ -397,7 +499,7 @@ h1,h2,h3,h4,h5
 #contact input[type="submit"]:hover
     {
         background: #ffffff;
-        color: #D43F52;
+        color: var(--tcolor);
     }
 /* end contact */
 
