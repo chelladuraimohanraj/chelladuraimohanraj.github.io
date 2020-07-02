@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css' type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Resume</title>
+</head>
+<style>
+
+
+:root{
+    --p:#000033;
+    --s:#ff9933;
+}
+*{  padding:0px;
+    margin: 0px;
+    color: var(--p);
+    font-family: "Times New Roman", Times, serif;
+}
+body{
+    margin:50px;
+}
+.right{
+    padding-top: 40px;
+}
+.header{
+    width:100%;
+    padding:0px 0px 20px 0px;
+}
+ul{
+    list-style: none;
+}
+h3{
+    color:var(--s);
+}
+#personal{
+   
+    padding:7px 0px;
+}
+#personal li{
+    padding:5px 0px;
+}
+#personal li i{
+    color: var(--p);
+}
+.container
+{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 60% 40%;
+}
+.line{
+    width:100%;
+    height:2px;
+    background-color: var(--p);
+}
+#skil{
+    align-items: stretch;
+    margin:20px 0px;
+}
+#skil button{
+    margin:0px 10px 10px 0px;
+    padding:5px;
+}
+.p1{
+    padding:0px 0px;
+}
+.p1 h2{
+    color:var(--s)
+}
+.p1 h2,p,a,h4{
+    padding:10px 0px;
+}
+.progress1{
+    background-color: var(--p);
+    border-radius: 13px;
+
+  }
+.progress1>div {
+    background-color: var(--s);
+    
+    height: 4px;
+    border-radius: 10px;
+  } 
+#p1{
+    width:100%;
+}
+#p2{
+    width:80%;
+}
+#p3{
+    width:60%;
+}
+#p4{
+    width:70%;
+}
+#p5{
+    width:60%;
+}
+.lang h3{
+    color: var(--p);
+}
+.lang
+{
+    padding:10px 0px;
+}
+.box{
+    padding:10px 0px;
+}
+.right>div{
+    padding:5px 0px;
+}
+.degcont{
+    padding: 5px 0px;
+}
+.deg{
+    padding:10px 0px;
+}
+.certifications ul{
+    padding:10px 0px;
+}
+.certifications li{
+    padding:5px 0px;
+}
+.certifications li:before{
+    padding:5px 0px;
+    content: "•"; 
+    padding-right: 8px;
+    color: var(--p); 
+}
+.mini{
+    padding-top: 20px;
+}
+
+</style>
+<body>
+   
+    <div class="container">
+
+        <div class="left">
+
+
+
+            <div class="header">
+                <h1>MOHANRAJ C</h1>
+                <h3>Software Developer</h3>
+                <ul id='personal'>
+                    <li><i class="fa fa-phone"></i> &nbsp&nbsp&nbsp9566879683</li>
+                    <li><i class="fa fa-envelope"></i> &nbsp&nbspchelladuraimohanraj@gmail.com</li>
+                    <li href='https://chelladuraimohanraj.github.io/'><i class="fa fa-link"></i> &nbsp&nbspchelladuraimohanraj.github.io</li>
+                    <li><i class="fa fa-github"></i> &nbsp&nbspchelladuraimohanraj</li>
+                </ul>
+            </div>
+
+
+
+
+
+
+            <div class="skills">
+                <h2>SKILLS</h2>
+                <div class="line"></div>
+                <div id='skil'>
+                    <button>Web Development</button>
+                    <button>git</button>
+                    <button>MySQL</button>
+                    <button>Linux</button>
+                    <button>Opencv</button>
+                    <button>DataStructures</button>
+                    
+                </div>
+            </div>
+
+            <div class="projects">
+                <h2>PROJECTS</h2>
+                <div class="line"></div>
+                <div class="p1">
+                    <h2>MPlayer</h2>
+                    <h4>May 2020</h4>
+                    <a href='https://github.com/chelladuraimohanraj/Mplayer'>https://github.com/chelladuraimohanraj/Mplayer</a>
+                    <p>An Musicplayer for android device that was devoped with kivy</p>
+                </div>
+                <div class="p1">
+                    <h2>Handwritten digits identifier</h2>
+                    <h4>Jun 2020</h4>
+                    <a href='https://github.com/chelladuraimohanraj/digit_reognizer'>https://github.com/chelladuraimohanraj/digit_reognizer</a>
+                    <p>Convoutional neural network that recognizes handwritten digits,trained with mnist+11000 data's</p>
+                </div>
+                <div class="p1">
+                    <h2>ChatApp with PHP</h2>
+                    <h4>Dec 2019</h4>
+                    <a href='https://github.com/chelladuraimohanraj/fchat'>https://github.com/chelladuraimohanraj/fchat</a>
+                    <p>Complete chatting process with php and Mysql</p>
+                </div>
+            
+            </div>
+
+            <div class="projects mini">
+                <h2>MINI-PROJECTS</h2>
+                <div class="line"></div>
+                <div class="p1">
+                    <h2>ChatApp with python sockets</h2>
+                    <h4>Jan 2020</h4>
+                    <a href='https://github.com/chelladuraimohanraj/pyhtonsockets'>https://github.com/chelladuraimohanraj/pyhtonsockets</a>
+                    <p>Sending and Receiving messages with python sockets</p>
+                </div>
+                <div class="p1">
+                    <h2>ChatApp with django-channels</h2>
+                    <h4>Jan 2020</h4>
+                    <a href='https://github.com/chelladuraimohanraj/django-channels-chat'>https://github.com/chelladuraimohanraj/django-channels-chat</a>
+                    <p>Sending and Receiving messages with django-channels</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+
+            <div class="programming">
+                <h2>PROGRAMMING</h2>
+                <div class="line"></div>
+                <div class="box">
+                <div class="lang">
+                    <h3>Python</h3>
+                    <div class="progress1">
+                        <div id="p1"></div>
+                    </div>
+                </div>
+                <div class="lang">
+                    <h3>HTML &amp; CSS</h3>
+                    <div class="progress1">
+                        <div id="p2"></div>
+                    </div>
+                </div>
+                <div class="lang">
+                    <h3>JavaScript</h3>
+                    <div class="progress1">
+                        <div id="p3"></div>
+                    </div>
+                </div>
+                <div class="lang">
+                    <h3>SQL</h3>
+                    <div class="progress1">
+                        <div id='p4'></div>
+                    </div>
+                </div>
+                <div class="lang">
+                    <h3>PHP</h3>
+                    <div class="progress1">
+                        <div id='p5'></div>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+            
+            <div class="education">
+                <h2>EDUCATION</h2>
+                <div class="line"></div>
+                <div class="degcont">
+                    <div class="deg">
+                        <h3>ComputerScience and Engineering</h3>
+                        <h4>K.Ramakrishnan college of Technology</h4>
+                        <h5>2017-2021</h5>
+                        <p>CGPA upto 7th semester=7.5</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+            <div class="certifications">
+                <h2>CERTIFICATIONS</h2>
+                <div class="line"></div>
+                <ul>
+                    <li>Complete Python developer from udemy</li>
+                    <li>Kivy create cross platform applications from udemy</li>
+                    <li>Python beginner level from tlc.krgi.in</li>
+                    <li>Java intermediate level from tlc.krgi.in</li>
+                </ul>
+            </div>
+            
+            <div class="certifications">
+                <h2>ACHIEVEMENTS</h2>
+                <div class="line"></div>
+                <ul>
+                    <li>Solved more than 700 problems in tlc.krgi.in</li>
+                </ul>
+            </div>
+
+            <div class="certifications">
+                <h2>CONTRIBUTION</h2>
+                <div class="line"></div>
+                <ul> 
+                    <li>Contributed to zero to mastery repository in github</li>
+                </ul>
+            </div>
+
+            <div class="certifications">
+                <h2>PRESENTATION</h2>
+                <div class="line"></div>
+                <ul> 
+                    <li>Presented a paper about NLP in Coimbatore Institute of Technology</li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
+
+<!-- 000033
+ff9933 -->
